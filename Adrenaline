@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADRENALINE</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0e0e0e;
+            color: #f0f0f0;
+        }
+        header {
+            background: linear-gradient(to right, #222, #444);
+            padding: 20px;
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #c0c0c0;
+            text-shadow: 2px 2px 5px #000;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .product {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        .product img {
+            width: 100%;
+            border-bottom: 1px solid #333;
+        }
+        .product h3 {
+            margin: 10px 0 5px;
+        }
+        .product p {
+            margin: 5px 10px;
+            font-size: 0.9em;
+        }
+        .price {
+            font-weight: bold;
+            color: #e60000;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #111;
+            color: #777;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+<header>ADRENALINE</header>
+
+<div class="container">
+    <div class="product">
+        <img src="https://via.placeholder.com/250x250?text=Tricou+1" alt="Tricou 1">
+        <h3>Tricou Urban</h3>
+        <p>Tricou din bumbac, design minimalist și confortabil.</p>
+        <div class="price">99 RON</div>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/250x250?text=Hanorac+2" alt="Hanorac 2">
+        <h3>Hanorac Negru</h3>
+        <p>Hanorac gros, perfect pentru sezonul rece.</p>
+        <div class="price">179 RON</div>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/250x250?text=Jacheta+3" alt="Jacheta 3">
+        <h3>Jachetă Street</h3>
+        <p>Jachetă stil streetwear, material impermeabil.</p>
+        <div class="price">229 RON</div>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/250x250?text=Pantaloni+4" alt="Pantaloni 4">
+        <h3>Pantaloni Cargo</h3>
+        <p>Pantaloni cu buzunare multiple și croială relaxată.</p>
+        <div class="price">149 RON</div>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/250x250?text=Sapca+5" alt="Șapcă 5">
+        <h3>Șapcă Logo</h3>
+        <p>Șapcă cu logo-ul ADRENALINE, ajustabilă.</p>
+        <div class="price">59 RON</div>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/250x250?text=Geaca+6" alt="Geacă 6">
+        <h3>Geacă Biker</h3>
+        <p>Geacă inspirată de stilul biker, din piele ecologică.</p>
+        <div class="price">289 RON</div>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 ADRENALINE. Toate drepturile rezervate.
+</footer>
+
+</body>
+</html>
